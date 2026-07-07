@@ -144,3 +144,6 @@ if query:
 
         else:
             st.warning("⚠️ No results found")
+
+
+print("version 2")
