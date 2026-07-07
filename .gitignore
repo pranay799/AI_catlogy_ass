@@ -1,0 +1,139 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# ==========================
+# Virtual Environments
+# ==========================
+pyenv/
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Streamlit
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+log/
+
+# ==========================
+# Python Build
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================
+# Vector Database
+# (Keep generated indexes out of Git)
+# ==========================
+faiss_index/
+vectorstore/
+chroma_db/
+chromadb/
+*.faiss
+*.index
+
+# ==========================
+# Model Files
+# (Remove these if you intentionally version models)
+# ==========================
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# ==========================
+# Uploaded Documents
+# (Ignore user-uploaded PDFs)
+# ==========================
+uploads/
+data/raw/
+
+# ==========================
+# Generated Outputs
+# ==========================
+outputs/
+results/
+temp/
+tmp/
+cache/
+
+# ==========================
+# Local Databases
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# Archive Files
+# ==========================
+*.zip
+*.tar
+*.gz
+*.7z
+
+# ==========================
+# Node (if frontend is added later)
+# ==========================
+node_modules/
+
+# ==========================
+# Misc
+# ==========================
+*.bak
+*.swp
